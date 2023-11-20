@@ -17,7 +17,7 @@ Free to use Bot to help you to manage your alliance and to win your wars
 
 ## Installation
 
-- Download the .zip
+- Download the [project.zip]()
 
 - Go to Discord Developper Portal and create a new application, then go to Bot section and reset the token to copy it, you will need the bot token in the next step
 
