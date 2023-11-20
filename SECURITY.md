@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-They are the currently supported and unsupported versions
+There is the list of the supported and unsupported versions
 
 | Version | Supported          |
 | ------- | ------------------ |
