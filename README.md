@@ -17,7 +17,7 @@ Free to use Bot to help you to manage your alliance and to win your wars
 
 ## Installation
 
-- Download the [project.zip]()
+- Download the [project.zip](https://github.com/Alexis-VS-CSharp/Galaxy-Life-Alliance-Bot/archive/refs/heads/main.zip)
 
 - Go to Discord Developper Portal and create a new application, then go to Bot section and reset the token to copy it, you will need the bot token in the next step
 
