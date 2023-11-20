@@ -1,0 +1,17 @@
+prefix: "&"
+tokens:
+    discord: ""
+settings:
+    allianceid: ""
+    botname: ""
+    guildid: ""
+    roleid: ""
+    warchannelid: ""
+    dashboardchannelid: ""
+    respawnchannelid: ""
+    targetchannelid: ""
+    alertchannelid: ""
+    warcheckinterval: "60"
+    respawncheckinterval: "10"
+    targetcheckinterval: "60"
+    alertpoints: "5000"
