@@ -8,9 +8,7 @@ There is the list of the supported and unsupported versions
 | ------- | ------------------ |
 |   1.3   | :white_check_mark: |
 |   1.2   | :white_check_mark: |
-|   1.1   | :x:                |
-|   1.0   | :x:                |
-| < 1.0   | :x:                |
+| < 1.2   | :x:                |
 
 ## Reporting a Vulnerability
 
