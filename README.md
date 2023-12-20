@@ -38,6 +38,7 @@ Free to use Bot to help you to manage your alliance and to win your wars
 ## Run the bot
 
 - Download and install [.Net 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+- Download and install [.Net Core 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
 
 - Look for the executable ``GL-Alliance-Bot.exe`` and execute it, now your bot is now up ! 
 
