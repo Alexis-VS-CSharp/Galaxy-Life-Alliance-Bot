@@ -16,6 +16,9 @@
           "Discord.Net.Rest": "3.12.0",
           "Discord.Net.WebSocket": "3.12.0",
           "Discord.Net.Webhook": "3.12.0",
+          "Magick.NET-Q8-AnyCPU": "13.5.0",
+          "Magick.NET.Core": "13.5.0",
+          "Magick.NET.SystemDrawing": "7.2.1",
           "Microsoft.AspNet.WebApi.Client": "6.0.0",
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
@@ -24,6 +27,7 @@
           "NetEscapades.Configuration.Yaml": "3.1.0",
           "Octokit": "9.0.0",
           "System.Data.SQLite": "1.0.118",
+          "System.Drawing.Common": "8.0.1",
           "System.Text.Json": "8.0.0",
           "System.Reactive.Reference": "5.0.0.0"
         },
@@ -185,6 +189,79 @@
           "lib/netstandard2.1/EntityFramework.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.400.420.21404"
+          }
+        }
+      },
+      "Magick.NET-Q8-AnyCPU/13.5.0": {
+        "dependencies": {
+          "Magick.NET.Core": "13.5.0"
+        },
+        "runtime": {
+          "lib/netstandard21/Magick.NET-Q8-AnyCPU.dll": {
+            "assemblyVersion": "13.5.0.0",
+            "fileVersion": "13.5.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/Magick.Native-Q8-arm64.dll.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/Magick.Native-Q8-x64.dll.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/Magick.Native-Q8-x64.dll.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/Magick.Native-Q8-arm64.dll.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q8-x64.dll.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/Magick.Native-Q8-arm64.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "7.1.1.22"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q8-x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "7.1.1.22"
+          },
+          "runtimes/win-x86/native/Magick.Native-Q8-x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "7.1.1.22"
+          }
+        }
+      },
+      "Magick.NET.Core/13.5.0": {
+        "runtime": {
+          "lib/netstandard21/Magick.NET.Core.dll": {
+            "assemblyVersion": "13.5.0.0",
+            "fileVersion": "13.5.0.0"
+          }
+        }
+      },
+      "Magick.NET.SystemDrawing/7.2.1": {
+        "dependencies": {
+          "Magick.NET.Core": "13.5.0",
+          "System.Drawing.Common": "8.0.1"
+        },
+        "runtime": {
+          "lib/netstandard21/Magick.NET.SystemDrawing.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.1.0"
           }
         }
       },
@@ -599,25 +676,6 @@
           }
         }
       },
-      "Microsoft.Win32.SystemEvents/4.7.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.700.19.56404"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.700.19.56404"
-          }
-        }
-      },
       "NetEscapades.Configuration.Yaml/3.1.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "8.0.0",
@@ -874,29 +932,11 @@
           }
         }
       },
-      "System.Drawing.Common/4.7.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0",
-          "Microsoft.Win32.SystemEvents": "4.7.0"
-        },
+      "System.Drawing.Common/8.0.1": {
         "runtime": {
           "lib/netstandard2.0/System.Drawing.Common.dll": {
-            "assemblyVersion": "4.0.0.1",
-            "fileVersion": "4.6.26919.2"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.700.19.56404"
-          },
-          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.700.19.56404"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.123.58006"
           }
         }
       },
@@ -1195,7 +1235,7 @@
       "System.ValueTuple/4.5.0": {},
       "System.Windows.Extensions/4.7.0": {
         "dependencies": {
-          "System.Drawing.Common": "4.7.0"
+          "System.Drawing.Common": "8.0.1"
         },
         "runtime": {
           "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
@@ -1326,6 +1366,27 @@
       "sha512": "sha512-yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "path": "entityframework/6.4.4",
       "hashPath": "entityframework.6.4.4.nupkg.sha512"
+    },
+    "Magick.NET-Q8-AnyCPU/13.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sligcmLf6Re91Z8XO15HbTADc9GZbZmJK+0jpm8lK+x3IVb2nIAUy4mmBzstADeIIkN5FShC7V/Ij4mygogxSg==",
+      "path": "magick.net-q8-anycpu/13.5.0",
+      "hashPath": "magick.net-q8-anycpu.13.5.0.nupkg.sha512"
+    },
+    "Magick.NET.Core/13.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/jKqfhbLvaVqxsV+DkOA5TjfrbO/Q3LdN3OL/xuewdC2EVBN4pTnAekAetn3CsbHOolfvc1xQLxY0MUN3nfwsg==",
+      "path": "magick.net.core/13.5.0",
+      "hashPath": "magick.net.core.13.5.0.nupkg.sha512"
+    },
+    "Magick.NET.SystemDrawing/7.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GM09zffHIF4eBranK5Rc0OATOK9yFOdx+C4MNITbzeHVXUMz3yCt2dkVd7Flww5DfvTYpEuNcItRrFDoeZJ7cQ==",
+      "path": "magick.net.systemdrawing/7.2.1",
+      "hashPath": "magick.net.systemdrawing.7.2.1.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/6.0.0": {
       "type": "package",
@@ -1558,13 +1619,6 @@
       "path": "microsoft.win32.registry/5.0.0",
       "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
     },
-    "Microsoft.Win32.SystemEvents/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
-      "path": "microsoft.win32.systemevents/4.7.0",
-      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
-    },
     "NetEscapades.Configuration.Yaml/3.1.0": {
       "type": "package",
       "serviceable": true,
@@ -1726,12 +1780,12 @@
       "path": "system.diagnostics.eventlog/6.0.0",
       "hashPath": "system.diagnostics.eventlog.6.0.0.nupkg.sha512"
     },
-    "System.Drawing.Common/4.7.0": {
+    "System.Drawing.Common/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
-      "path": "system.drawing.common/4.7.0",
-      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+      "sha512": "sha512-x0rAZECxIGx/YVjN28YRdpqka0+H7YMN9741FUDzipXPDzesd60gef/LI0ZCOcYSDsacTLTHvMAvxHG+TjbNNQ==",
+      "path": "system.drawing.common/8.0.1",
+      "hashPath": "system.drawing.common.8.0.1.nupkg.sha512"
     },
     "System.Globalization/4.0.11": {
       "type": "package",
