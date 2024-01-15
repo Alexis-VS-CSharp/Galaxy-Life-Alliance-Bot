@@ -39,11 +39,9 @@ Free to use Bot to help you to manage your alliance and to win your wars
 
 - Download and install [.Net 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 - Download and install [.Net Core 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
+- Download and install [Git x64](https://git-scm.com/download/win)
 
 - Look for the executable ``GL-Alliance-Bot.exe`` and execute it, now your bot is now up ! 
 
 ## How to update the bot
-:warning: IMPORTANT TO AVOID LOSS OF DATA
-- Make sure to save ``cartographie.db``, ``journal.db``, ``targetlist.db`` and ``config.yml`` to save your data
-- Download the latest version
-- Then replace ``cartographie.db``, ``journal.db``, ``targetlist.db`` and ``config.yml`` with the one you saved before
+- Launch ``Update.bat``
