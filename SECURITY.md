@@ -7,11 +7,7 @@ There is the list of the supported and unsupported versions
 | Version | Supported          |
 | ------- | ------------------ |
 |   1.6   | :white_check_mark: |
-|   1.5   | :white_check_mark: |
-|   1.4   | :white_check_mark: |
-|   1.3   | :white_check_mark: |
-|   1.2   | :white_check_mark: |
-| < 1.2   | :x:                |
+| < 1.5   | :x:                |
 
 ## Reporting a Vulnerability
 
