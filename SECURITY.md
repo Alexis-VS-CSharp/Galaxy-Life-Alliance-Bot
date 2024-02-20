@@ -6,8 +6,8 @@ There is the list of the supported and unsupported versions
 
 | Version | Supported          |
 | ------- | ------------------ |
-|  1.6.1  | :white_check_mark: |
-|   1.6   | :white_check_mark: |
+|  1.7.x  | :white_check_mark: |
+|  1.6.x  | :white_check_mark: |
 | < 1.5   | :x:                |
 
 ## Reporting a Vulnerability
