@@ -9,27 +9,27 @@
       "GL-Alliance-Bot/1.0.0": {
         "dependencies": {
           "Arch.EntityFrameworkCore.Design": "2.1.15",
-          "Discord.Net": "3.12.0",
-          "Discord.Net.Commands": "3.12.0",
-          "Discord.Net.Core": "3.12.0",
-          "Discord.Net.Interactions": "3.12.0",
-          "Discord.Net.Rest": "3.12.0",
-          "Discord.Net.WebSocket": "3.12.0",
-          "Discord.Net.Webhook": "3.12.0",
-          "Magick.NET-Q8-AnyCPU": "13.5.0",
-          "Magick.NET.Core": "13.5.0",
-          "Magick.NET.SystemDrawing": "7.2.1",
+          "Discord.Net": "3.14.1",
+          "Discord.Net.Commands": "3.14.1",
+          "Discord.Net.Core": "3.14.1",
+          "Discord.Net.Interactions": "3.14.1",
+          "Discord.Net.Rest": "3.14.1",
+          "Discord.Net.WebSocket": "3.14.1",
+          "Discord.Net.Webhook": "3.14.1",
+          "Magick.NET-Q8-AnyCPU": "13.6.0",
+          "Magick.NET.Core": "13.6.0",
+          "Magick.NET.SystemDrawing": "7.2.2",
           "Microsoft.AspNet.WebApi.Client": "6.0.0",
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.Hosting": "6.0.0",
           "Microsoft.Extensions.Hosting.Abstractions": "7.0.0",
           "NetEscapades.Configuration.Yaml": "3.1.0",
-          "Octokit": "9.0.0",
+          "Octokit": "10.0.0",
           "System.Data.SQLite": "1.0.118",
-          "System.Drawing.Common": "8.0.1",
-          "System.Text.Json": "8.0.0",
-          "System.Reactive.Reference": "5.0.0.0"
+          "System.Data.SQLite.Core": "1.0.118",
+          "System.Drawing.Common": "8.0.3",
+          "System.Text.Json": "8.0.3"
         },
         "runtime": {
           "GL-Alliance-Bot.dll": {}
@@ -43,10 +43,10 @@
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
           "Remotion.Linq": "2.2.0",
-          "System.Collections.Immutable": "5.0.0",
+          "System.Collections.Immutable": "6.0.0",
           "System.ComponentModel.Annotations": "4.7.0",
           "System.Diagnostics.DiagnosticSource": "6.0.0",
-          "System.Interactive.Async": "5.0.0"
+          "System.Interactive.Async": "6.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/Arch.EntityFrameworkCore.dll": {
@@ -87,89 +87,89 @@
           }
         }
       },
-      "Discord.Net/3.12.0": {
+      "Discord.Net/3.14.1": {
         "dependencies": {
-          "Discord.Net.Commands": "3.12.0",
-          "Discord.Net.Core": "3.12.0",
-          "Discord.Net.Interactions": "3.12.0",
-          "Discord.Net.Rest": "3.12.0",
-          "Discord.Net.WebSocket": "3.12.0",
-          "Discord.Net.Webhook": "3.12.0"
+          "Discord.Net.Commands": "3.14.1",
+          "Discord.Net.Core": "3.14.1",
+          "Discord.Net.Interactions": "3.14.1",
+          "Discord.Net.Rest": "3.14.1",
+          "Discord.Net.WebSocket": "3.14.1",
+          "Discord.Net.Webhook": "3.14.1"
         }
       },
-      "Discord.Net.Commands/3.12.0": {
+      "Discord.Net.Commands/3.14.1": {
         "dependencies": {
-          "Discord.Net.Core": "3.12.0"
+          "Discord.Net.Core": "3.14.1"
         },
         "runtime": {
           "lib/netstandard2.1/Discord.Net.Commands.dll": {
-            "assemblyVersion": "3.12.0.0",
-            "fileVersion": "3.12.0.0"
+            "assemblyVersion": "3.14.1.0",
+            "fileVersion": "3.14.1.0"
           }
         }
       },
-      "Discord.Net.Core/3.12.0": {
+      "Discord.Net.Core/3.14.1": {
         "dependencies": {
-          "Newtonsoft.Json": "13.0.2",
-          "System.Collections.Immutable": "5.0.0",
-          "System.Interactive.Async": "5.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Collections.Immutable": "6.0.0",
+          "System.Interactive.Async": "6.0.1",
           "System.ValueTuple": "4.5.0"
         },
         "runtime": {
           "lib/netstandard2.1/Discord.Net.Core.dll": {
-            "assemblyVersion": "3.12.0.0",
-            "fileVersion": "3.12.0.0"
+            "assemblyVersion": "3.14.1.0",
+            "fileVersion": "3.14.1.0"
           }
         }
       },
-      "Discord.Net.Interactions/3.12.0": {
+      "Discord.Net.Interactions/3.14.1": {
         "dependencies": {
-          "Discord.Net.Core": "3.12.0",
-          "Discord.Net.Rest": "3.12.0",
-          "Discord.Net.WebSocket": "3.12.0",
+          "Discord.Net.Core": "3.14.1",
+          "Discord.Net.Rest": "3.14.1",
+          "Discord.Net.WebSocket": "3.14.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "System.Collections.Immutable": "5.0.0",
-          "System.Reactive": "5.0.0"
+          "System.Collections.Immutable": "6.0.0",
+          "System.Reactive": "6.0.0"
         },
         "runtime": {
           "lib/netstandard2.1/Discord.Net.Interactions.dll": {
-            "assemblyVersion": "3.12.0.0",
-            "fileVersion": "3.12.0.0"
+            "assemblyVersion": "3.14.1.0",
+            "fileVersion": "3.14.1.0"
           }
         }
       },
-      "Discord.Net.Rest/3.12.0": {
+      "Discord.Net.Rest/3.14.1": {
         "dependencies": {
-          "Discord.Net.Core": "3.12.0"
+          "Discord.Net.Core": "3.14.1"
         },
         "runtime": {
           "lib/netstandard2.1/Discord.Net.Rest.dll": {
-            "assemblyVersion": "3.12.0.0",
-            "fileVersion": "3.12.0.0"
+            "assemblyVersion": "3.14.1.0",
+            "fileVersion": "3.14.1.0"
           }
         }
       },
-      "Discord.Net.Webhook/3.12.0": {
+      "Discord.Net.Webhook/3.14.1": {
         "dependencies": {
-          "Discord.Net.Core": "3.12.0",
-          "Discord.Net.Rest": "3.12.0"
+          "Discord.Net.Core": "3.14.1",
+          "Discord.Net.Rest": "3.14.1"
         },
         "runtime": {
           "lib/netstandard2.1/Discord.Net.Webhook.dll": {
-            "assemblyVersion": "3.12.0.0",
-            "fileVersion": "3.12.0.0"
+            "assemblyVersion": "3.14.1.0",
+            "fileVersion": "3.14.1.0"
           }
         }
       },
-      "Discord.Net.WebSocket/3.12.0": {
+      "Discord.Net.WebSocket/3.14.1": {
         "dependencies": {
-          "Discord.Net.Core": "3.12.0",
-          "Discord.Net.Rest": "3.12.0"
+          "Discord.Net.Core": "3.14.1",
+          "Discord.Net.Rest": "3.14.1"
         },
         "runtime": {
           "lib/netstandard2.1/Discord.Net.WebSocket.dll": {
-            "assemblyVersion": "3.12.0.0",
-            "fileVersion": "3.12.0.0"
+            "assemblyVersion": "3.14.1.0",
+            "fileVersion": "3.14.1.0"
           }
         }
       },
@@ -192,14 +192,14 @@
           }
         }
       },
-      "Magick.NET-Q8-AnyCPU/13.5.0": {
+      "Magick.NET-Q8-AnyCPU/13.6.0": {
         "dependencies": {
-          "Magick.NET.Core": "13.5.0"
+          "Magick.NET.Core": "13.6.0"
         },
         "runtime": {
           "lib/netstandard21/Magick.NET-Q8-AnyCPU.dll": {
-            "assemblyVersion": "13.5.0.0",
-            "fileVersion": "13.5.0.0"
+            "assemblyVersion": "13.6.0.0",
+            "fileVersion": "13.6.0.0"
           }
         },
         "runtimeTargets": {
@@ -231,43 +231,43 @@
           "runtimes/win-arm64/native/Magick.Native-Q8-arm64.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "7.1.1.22"
+            "fileVersion": "7.1.1.28"
           },
           "runtimes/win-x64/native/Magick.Native-Q8-x64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "7.1.1.22"
+            "fileVersion": "7.1.1.28"
           },
           "runtimes/win-x86/native/Magick.Native-Q8-x86.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "7.1.1.22"
+            "fileVersion": "7.1.1.28"
           }
         }
       },
-      "Magick.NET.Core/13.5.0": {
+      "Magick.NET.Core/13.6.0": {
         "runtime": {
           "lib/netstandard21/Magick.NET.Core.dll": {
-            "assemblyVersion": "13.5.0.0",
-            "fileVersion": "13.5.0.0"
+            "assemblyVersion": "13.6.0.0",
+            "fileVersion": "13.6.0.0"
           }
         }
       },
-      "Magick.NET.SystemDrawing/7.2.1": {
+      "Magick.NET.SystemDrawing/7.2.2": {
         "dependencies": {
-          "Magick.NET.Core": "13.5.0",
-          "System.Drawing.Common": "8.0.1"
+          "Magick.NET.Core": "13.6.0",
+          "System.Drawing.Common": "8.0.3"
         },
         "runtime": {
           "lib/netstandard21/Magick.NET.SystemDrawing.dll": {
             "assemblyVersion": "7.2.0.0",
-            "fileVersion": "7.2.1.0"
+            "fileVersion": "7.2.2.0"
           }
         }
       },
       "Microsoft.AspNet.WebApi.Client/6.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "13.0.2",
+          "Newtonsoft.Json": "13.0.3",
           "Newtonsoft.Json.Bson": "1.0.2",
           "System.Memory": "4.5.5",
           "System.Threading.Tasks.Extensions": "4.5.4"
@@ -391,7 +391,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
           "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0",
-          "System.Text.Json": "8.0.0"
+          "System.Text.Json": "8.0.3"
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll": {
@@ -561,7 +561,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging.Configuration": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
-          "System.Text.Json": "8.0.0"
+          "System.Text.Json": "8.0.3"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.dll": {
@@ -606,7 +606,7 @@
           "Microsoft.Extensions.Options": "6.0.0",
           "Microsoft.Extensions.Primitives": "8.0.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Text.Json": "8.0.0"
+          "System.Text.Json": "8.0.3"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Logging.EventSource.dll": {
@@ -689,17 +689,17 @@
           }
         }
       },
-      "Newtonsoft.Json/13.0.2": {
+      "Newtonsoft.Json/13.0.3": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.2.27524"
+            "fileVersion": "13.0.3.27908"
           }
         }
       },
       "Newtonsoft.Json.Bson/1.0.2": {
         "dependencies": {
-          "Newtonsoft.Json": "13.0.2"
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
@@ -708,11 +708,11 @@
           }
         }
       },
-      "Octokit/9.0.0": {
+      "Octokit/10.0.0": {
         "runtime": {
           "lib/netstandard2.0/Octokit.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.0.0"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
           }
         }
       },
@@ -817,11 +817,15 @@
           "System.Runtime": "4.1.0"
         }
       },
-      "System.Collections.Immutable/5.0.0": {
+      "System.Collections.Immutable/6.0.0": {
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
@@ -932,11 +936,11 @@
           }
         }
       },
-      "System.Drawing.Common/8.0.1": {
+      "System.Drawing.Common/8.0.3": {
         "runtime": {
           "lib/netstandard2.0/System.Drawing.Common.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.123.58006"
+            "fileVersion": "8.0.324.11603"
           }
         }
       },
@@ -947,14 +951,14 @@
           "System.Runtime": "4.1.0"
         }
       },
-      "System.Interactive.Async/5.0.0": {
+      "System.Interactive.Async/6.0.1": {
         "dependencies": {
-          "System.Linq.Async": "5.0.0"
+          "System.Linq.Async": "6.0.1"
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Interactive.Async.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.0.1"
+          "lib/netstandard2.1/System.Interactive.Async.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1.35981"
           }
         }
       },
@@ -976,11 +980,11 @@
           "System.Runtime.Extensions": "4.1.0"
         }
       },
-      "System.Linq.Async/5.0.0": {
+      "System.Linq.Async/6.0.1": {
         "runtime": {
-          "lib/netcoreapp3.1/System.Linq.Async.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.0.1"
+          "lib/netstandard2.1/System.Linq.Async.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1.35981"
           }
         }
       },
@@ -1027,7 +1031,17 @@
           "System.Threading": "4.0.11"
         }
       },
-      "System.Reactive/5.0.0": {},
+      "System.Reactive/6.0.0": {
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      },
       "System.Reflection/4.1.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1202,7 +1216,7 @@
           }
         }
       },
-      "System.Text.Json/8.0.0": {
+      "System.Text.Json/8.0.3": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
           "System.Buffers": "4.5.1",
@@ -1214,7 +1228,7 @@
         "runtime": {
           "lib/netstandard2.0/System.Text.Json.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "fileVersion": "8.0.324.11423"
           }
         }
       },
@@ -1235,7 +1249,7 @@
       "System.ValueTuple/4.5.0": {},
       "System.Windows.Extensions/4.7.0": {
         "dependencies": {
-          "System.Drawing.Common": "8.0.1"
+          "System.Drawing.Common": "8.0.3"
         },
         "runtime": {
           "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
@@ -1257,14 +1271,6 @@
           "lib/netstandard2.1/YamlDotNet.dll": {
             "assemblyVersion": "13.0.0.0",
             "fileVersion": "13.0.1.0"
-          }
-        }
-      },
-      "System.Reactive.Reference/5.0.0.0": {
-        "runtime": {
-          "System.Reactive.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.0.1"
           }
         }
       }
@@ -1311,54 +1317,54 @@
       "path": "arch.entityframeworkcore.relational/2.1.15",
       "hashPath": "arch.entityframeworkcore.relational.2.1.15.nupkg.sha512"
     },
-    "Discord.Net/3.12.0": {
+    "Discord.Net/3.14.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ACCXwn/D27Lktg2X8Z43G8lofgwNcHkAnS64ZJ4Z+SuK9j5NVTFBo2jV2fi2OROivx21ZkVSKXLXs9Wrt8V5tw==",
-      "path": "discord.net/3.12.0",
-      "hashPath": "discord.net.3.12.0.nupkg.sha512"
+      "sha512": "sha512-pwV94NlM3Fraes18l0Qm/ED7Mfu4EUndFXFxp7A+NrW5RkAJ8hOiENykaREJVxc8r4zq9aBfVW+LUq+pHClueg==",
+      "path": "discord.net/3.14.1",
+      "hashPath": "discord.net.3.14.1.nupkg.sha512"
     },
-    "Discord.Net.Commands/3.12.0": {
+    "Discord.Net.Commands/3.14.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xsX/cL3jDJKBDQjSk3lk1mT6nWAPOJFQHYYmoCExGvKBKsAYc7YxxPIY1zlXCEkJ0OiU62swuuEZdGevTNK01Q==",
-      "path": "discord.net.commands/3.12.0",
-      "hashPath": "discord.net.commands.3.12.0.nupkg.sha512"
+      "sha512": "sha512-mkGdSKbejAds/Ng0emK2K8eMQ/lFcHgnlic2to7uop4tcwN4VDzNhxO7ALaIanp7HYlQgHOIfge3HnPqnWu6Bg==",
+      "path": "discord.net.commands/3.14.1",
+      "hashPath": "discord.net.commands.3.14.1.nupkg.sha512"
     },
-    "Discord.Net.Core/3.12.0": {
+    "Discord.Net.Core/3.14.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9MU124jnJYqfOt5nIGtpUZhQCFR6Ag2pB5KNDZRqZNMsKE2L3OkHuzDeD+iLSbOYYRPrbk+dfKOdnJZl+K1itA==",
-      "path": "discord.net.core/3.12.0",
-      "hashPath": "discord.net.core.3.12.0.nupkg.sha512"
+      "sha512": "sha512-SI5H5xdCbx13ub1v1SY7u0O8+sA1eeeQfMYlhjGkrQV7z52vJdkxgaKBz70zQiy+RG08Ro9zKXMRt2xsmCaL5g==",
+      "path": "discord.net.core/3.14.1",
+      "hashPath": "discord.net.core.3.14.1.nupkg.sha512"
     },
-    "Discord.Net.Interactions/3.12.0": {
+    "Discord.Net.Interactions/3.14.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FlfWqw3O56AAXbR5sc67E1vuRT0WScFlwE7+BdIAW5m/ziiQVTFuZLmUPnE5rnWSf4lcqeLx7UXFJknBGMr6uw==",
-      "path": "discord.net.interactions/3.12.0",
-      "hashPath": "discord.net.interactions.3.12.0.nupkg.sha512"
+      "sha512": "sha512-lEi+XfbkbRAE4Ltu+Rvyi2szIwDCBE4R/HpIzs7a+vqLSmTsC9tqIuVJVsXOSmT9puafcgyj+Lx9tm02Ubd9IQ==",
+      "path": "discord.net.interactions/3.14.1",
+      "hashPath": "discord.net.interactions.3.14.1.nupkg.sha512"
     },
-    "Discord.Net.Rest/3.12.0": {
+    "Discord.Net.Rest/3.14.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lyp+1bVd4RnOmEMgM//yJ3zD7PZmT9tr6ljl/SPH66/kzlxex6kvlV7TyH7K93S0joKHzvGWm+lL0rEbkiFXPQ==",
-      "path": "discord.net.rest/3.12.0",
-      "hashPath": "discord.net.rest.3.12.0.nupkg.sha512"
+      "sha512": "sha512-veat0FfYD7E5SgxhwHibZZ1Zkf9Yv3nPRwdOUkTXZlGfeC3pSwKoIJ+rX6Jg1xdKHHFSeZJXaanJzfOAIUj99w==",
+      "path": "discord.net.rest/3.14.1",
+      "hashPath": "discord.net.rest.3.14.1.nupkg.sha512"
     },
-    "Discord.Net.Webhook/3.12.0": {
+    "Discord.Net.Webhook/3.14.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0n8dh/WbuEvR4jptPsGXyCMLbhgRzEh1/pZpCcNcQSnDLYNB3EYH9KtMzjH4ykDBBsL2LNcwWWBKpXC77AG6nA==",
-      "path": "discord.net.webhook/3.12.0",
-      "hashPath": "discord.net.webhook.3.12.0.nupkg.sha512"
+      "sha512": "sha512-sAMzUKzQvVTz2IRueOh2RBlIkieO84J+dOp9sC4kB1GQ/46w6Xp6NO/kud+PqVI8DwyA2sH35d+ykoyKVhIj/A==",
+      "path": "discord.net.webhook/3.14.1",
+      "hashPath": "discord.net.webhook.3.14.1.nupkg.sha512"
     },
-    "Discord.Net.WebSocket/3.12.0": {
+    "Discord.Net.WebSocket/3.14.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bipottjJzE/yEc4CZmCURRboROuMqHQRGma7L+qYfv3VwNgb0+j2rxvawcY7Tr77EuX0EjnnNBGoKcdJClGYEQ==",
-      "path": "discord.net.websocket/3.12.0",
-      "hashPath": "discord.net.websocket.3.12.0.nupkg.sha512"
+      "sha512": "sha512-Vv7dyTW9AHgHhgNUc4YqkNH5wMMsuBCrNkCgYEREt50t2nY7HoZh4mWCro2aAgcW8In2YMu7SoNEOtaw/3xwnw==",
+      "path": "discord.net.websocket/3.14.1",
+      "hashPath": "discord.net.websocket.3.14.1.nupkg.sha512"
     },
     "EntityFramework/6.4.4": {
       "type": "package",
@@ -1367,26 +1373,26 @@
       "path": "entityframework/6.4.4",
       "hashPath": "entityframework.6.4.4.nupkg.sha512"
     },
-    "Magick.NET-Q8-AnyCPU/13.5.0": {
+    "Magick.NET-Q8-AnyCPU/13.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sligcmLf6Re91Z8XO15HbTADc9GZbZmJK+0jpm8lK+x3IVb2nIAUy4mmBzstADeIIkN5FShC7V/Ij4mygogxSg==",
-      "path": "magick.net-q8-anycpu/13.5.0",
-      "hashPath": "magick.net-q8-anycpu.13.5.0.nupkg.sha512"
+      "sha512": "sha512-taHH/6j9r9E7lO+Vy+nuH3HprAUK429PPcqTH6DakwKrgrcGNY4pdnOSSs5jErQgIkVC0ANwR+nRz2iLllJF9A==",
+      "path": "magick.net-q8-anycpu/13.6.0",
+      "hashPath": "magick.net-q8-anycpu.13.6.0.nupkg.sha512"
     },
-    "Magick.NET.Core/13.5.0": {
+    "Magick.NET.Core/13.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/jKqfhbLvaVqxsV+DkOA5TjfrbO/Q3LdN3OL/xuewdC2EVBN4pTnAekAetn3CsbHOolfvc1xQLxY0MUN3nfwsg==",
-      "path": "magick.net.core/13.5.0",
-      "hashPath": "magick.net.core.13.5.0.nupkg.sha512"
+      "sha512": "sha512-VHW7fxIM/5z0m7pm6XXkAqTTCg6DlvVyn6MS/DhJ1bwY9v8W27AdhYDWOLns2P9zkD0WR72YAXPlcVbbIBVW6A==",
+      "path": "magick.net.core/13.6.0",
+      "hashPath": "magick.net.core.13.6.0.nupkg.sha512"
     },
-    "Magick.NET.SystemDrawing/7.2.1": {
+    "Magick.NET.SystemDrawing/7.2.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GM09zffHIF4eBranK5Rc0OATOK9yFOdx+C4MNITbzeHVXUMz3yCt2dkVd7Flww5DfvTYpEuNcItRrFDoeZJ7cQ==",
-      "path": "magick.net.systemdrawing/7.2.1",
-      "hashPath": "magick.net.systemdrawing.7.2.1.nupkg.sha512"
+      "sha512": "sha512-EsMTZaQAdpoqFMttcdZbY8eiyKdQWRItX2QgbA3p85kbrxrP/diFMv2Ya/sZ6oxPIjvjbQQXLmYcy0nOuhJbJQ==",
+      "path": "magick.net.systemdrawing/7.2.2",
+      "hashPath": "magick.net.systemdrawing.7.2.2.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/6.0.0": {
       "type": "package",
@@ -1626,12 +1632,12 @@
       "path": "netescapades.configuration.yaml/3.1.0",
       "hashPath": "netescapades.configuration.yaml.3.1.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/13.0.2": {
+    "Newtonsoft.Json/13.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
-      "path": "newtonsoft.json/13.0.2",
-      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
     "Newtonsoft.Json.Bson/1.0.2": {
       "type": "package",
@@ -1640,12 +1646,12 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
-    "Octokit/9.0.0": {
+    "Octokit/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mQZMCTZavxd9IzTkRaRLxJtFE5uTOJ2Uia5KDwnHiBBFjvnG4BJf56RV1aPZsVdqiKlqRmxbLrkU8DVlmRDrSA==",
-      "path": "octokit/9.0.0",
-      "hashPath": "octokit.9.0.0.nupkg.sha512"
+      "sha512": "sha512-PHUXVZwE0C2wW9Slkfvw85YNr+uPvLKDgnmxVOzDds+jsv7TgTW9GiGNs4ENYKx1vHfZuH2/VmUlJ9W6GKfDSA==",
+      "path": "octokit/10.0.0",
+      "hashPath": "octokit.10.0.0.nupkg.sha512"
     },
     "Remotion.Linq/2.2.0": {
       "type": "package",
@@ -1710,12 +1716,12 @@
       "path": "system.collections/4.0.11",
       "hashPath": "system.collections.4.0.11.nupkg.sha512"
     },
-    "System.Collections.Immutable/5.0.0": {
+    "System.Collections.Immutable/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FXkLXiK0sVVewcso0imKQoOxjoPAj42R8HtjjbSjVPAzwDfzoyoznWxgA3c38LDbN9SJux1xXoXYAhz98j7r2g==",
-      "path": "system.collections.immutable/5.0.0",
-      "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
+      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "path": "system.collections.immutable/6.0.0",
+      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
     },
     "System.ComponentModel.Annotations/4.7.0": {
       "type": "package",
@@ -1780,12 +1786,12 @@
       "path": "system.diagnostics.eventlog/6.0.0",
       "hashPath": "system.diagnostics.eventlog.6.0.0.nupkg.sha512"
     },
-    "System.Drawing.Common/8.0.1": {
+    "System.Drawing.Common/8.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-x0rAZECxIGx/YVjN28YRdpqka0+H7YMN9741FUDzipXPDzesd60gef/LI0ZCOcYSDsacTLTHvMAvxHG+TjbNNQ==",
-      "path": "system.drawing.common/8.0.1",
-      "hashPath": "system.drawing.common.8.0.1.nupkg.sha512"
+      "sha512": "sha512-oDE9duAtHhxYJM2bsOlZCLBKdorU9DTV1tw7Mlc+VIT7HgwO5ddfOHk/An8C+fAS9oKdmn2PaIA5t1b484uz8g==",
+      "path": "system.drawing.common/8.0.3",
+      "hashPath": "system.drawing.common.8.0.3.nupkg.sha512"
     },
     "System.Globalization/4.0.11": {
       "type": "package",
@@ -1794,12 +1800,12 @@
       "path": "system.globalization/4.0.11",
       "hashPath": "system.globalization.4.0.11.nupkg.sha512"
     },
-    "System.Interactive.Async/5.0.0": {
+    "System.Interactive.Async/6.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QaqhQVDiULcu4vm6o89+iP329HcK44cETHOYgy/jfEjtzeFy0ZxmuM7nel9ocjnKxEM4yh1mli7hgh8Q9o+/Iw==",
-      "path": "system.interactive.async/5.0.0",
-      "hashPath": "system.interactive.async.5.0.0.nupkg.sha512"
+      "sha512": "sha512-f8H1O4ZWDQo344y5NQU76G4SIjWMuKDVXL9OM1dg6K5YZnLkc8iCdQDybBvMcC6ufk61jzXGVAX6UCDu0qDSjA==",
+      "path": "system.interactive.async/6.0.1",
+      "hashPath": "system.interactive.async.6.0.1.nupkg.sha512"
     },
     "System.IO/4.1.0": {
       "type": "package",
@@ -1815,12 +1821,12 @@
       "path": "system.linq/4.1.0",
       "hashPath": "system.linq.4.1.0.nupkg.sha512"
     },
-    "System.Linq.Async/5.0.0": {
+    "System.Linq.Async/6.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cPtIuuH8TIjVHSi2ewwReWGW1PfChPE0LxPIDlfwVcLuTM9GANFTXiMB7k3aC4sk3f0cQU25LNKzx+jZMxijqw==",
-      "path": "system.linq.async/5.0.0",
-      "hashPath": "system.linq.async.5.0.0.nupkg.sha512"
+      "sha512": "sha512-0YhHcaroWpQ9UCot3Pizah7ryAzQhNvobLMSxeDIGmnXfkQn8u5owvpOH0K6EVB+z9L7u6Cc4W17Br/+jyttEQ==",
+      "path": "system.linq.async/6.0.1",
+      "hashPath": "system.linq.async.6.0.1.nupkg.sha512"
     },
     "System.Linq.Expressions/4.1.0": {
       "type": "package",
@@ -1850,12 +1856,12 @@
       "path": "system.objectmodel/4.0.12",
       "hashPath": "system.objectmodel.4.0.12.nupkg.sha512"
     },
-    "System.Reactive/5.0.0": {
+    "System.Reactive/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
-      "path": "system.reactive/5.0.0",
-      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
     },
     "System.Reflection/4.1.0": {
       "type": "package",
@@ -1976,12 +1982,12 @@
       "path": "system.text.encodings.web/8.0.0",
       "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
     },
-    "System.Text.Json/8.0.0": {
+    "System.Text.Json/8.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
-      "path": "system.text.json/8.0.0",
-      "hashPath": "system.text.json.8.0.0.nupkg.sha512"
+      "sha512": "sha512-hpagS9joOwv6efWfrMmV9MjQXpiXZH72PgN067Ysfr6AWMSD1/1hEcvh/U5mUpPLezEWsOJSuVrmqDIVD958iA==",
+      "path": "system.text.json/8.0.3",
+      "hashPath": "system.text.json.8.0.3.nupkg.sha512"
     },
     "System.Threading/4.0.11": {
       "type": "package",
@@ -2024,11 +2030,6 @@
       "sha512": "sha512-E1e/xFXB+Cbn7pLVlr+8E3nemEitIReVgmAMMMveADvZvXGuSGHP+1Cg6oA+SUfwXHfaXLQn4STCaPKtdIJkWA==",
       "path": "yamldotnet/13.0.1",
       "hashPath": "yamldotnet.13.0.1.nupkg.sha512"
-    },
-    "System.Reactive.Reference/5.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

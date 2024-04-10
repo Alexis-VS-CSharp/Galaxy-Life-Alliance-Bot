@@ -3,15 +3,14 @@ tokens:
     discord: ""
 settings:
     allianceid: ""
-    botname: ""
+    name: ""
     guildid: ""
     roleid: ""
     warchannelid: ""
     dashboardchannelid: ""
-    respawnchannelid: ""
     targetchannelid: ""
+    respawnchannelid: ""
     warpointchannelid: ""
-    wartrigeredchannelid: ""
-    warcheckinterval: "60"
-    respawncheckinterval: "10"
-    targetcheckinterval: "60"
+    warcheckinterval: 60
+    respawncheckinterval: 10
+    targetcheckinterval: 60
