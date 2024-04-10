@@ -42,8 +42,10 @@ Free to use Bot to help you to manage your alliance and to win your wars
 
 - Look for the executable ``GL-Alliance-Bot.exe`` and execute it, now your bot is now up ! 
 
-## How to update the bot
+## How to update the bot (Auto)
+To auto update, you can simply launch ``Update.bat``
+## How to update the bot (Manually)
 :warning: IMPORTANT TO AVOID LOSS OF DATA
-- Make sure to save ``cartographie.db``, ``journal.db``, ``targetlist.db`` and ``config.yml`` to save your data
+- Make sure to save ``config.yml`` to save your data
 - Download the latest version
-- Then replace ``cartographie.db``, ``journal.db``, ``targetlist.db`` and ``config.yml`` with the one you saved before
+- Then replace ``config.yml`` with the one you saved before
