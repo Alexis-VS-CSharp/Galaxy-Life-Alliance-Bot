@@ -1,9 +1,10 @@
 @echo off
-md temp
-move config.yml %cd%\temp
-cd %cd%
+md update
+move "%~dp0\config.yml" "%~dp0\update"
 git clone https://github.com/Alexis-VS-CSharp/Galaxy-Life-Alliance-Bot.git
-move %cd%\Galaxy-Life-Alliance-Bot\*.* %cd%
+del "%~dp0\Galaxy-Life-Alliance-Bot\*.bat"
+move "%~dp0\Galaxy-Life-Alliance-Bot\*.*" "%~dp0\"
 rmdir /s /q Galaxy-Life-Alliance-Bot
-move %cd%\temp\*.* %cd%
-rmdir /s /q temp
+move "%~dp0\update\*.*" "%~dp0\"
+rmdir /s /q update
+pause
