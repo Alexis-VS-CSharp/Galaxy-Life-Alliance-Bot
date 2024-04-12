@@ -10,7 +10,8 @@ settings:
     dashboardchannelid: ""
     targetchannelid: ""
     respawnchannelid: ""
-    warpointchannelid: ""
+    allywarpointchannelid: ""
+    enewarpointchannelid: ""
     warcheckinterval: 60
     respawncheckinterval: 10
     targetcheckinterval: 60
