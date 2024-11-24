@@ -6,7 +6,7 @@ There is the list of the supported and unsupported versions
 
 | Version | Supported          |
 | ------- | ------------------ |
-|   1.8   | :white_check_mark: |
+| 1.8 >   | :x:                |
 |  1.7.2  | :x:                |
 |  1.7.1  | :x:                |
 |   1.7   | :x:                |
